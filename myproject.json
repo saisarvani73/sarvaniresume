@@ -1,0 +1,29 @@
+{
+  "profile":{
+"name":"sai sarvani",
+"image":"download.jpg",
+"email":"saisarvanipilli@gmail.com",
+"mobile":"8573529459",
+"address":"pvp college"
+},
+"career":{
+  "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+
+},
+"education":[{
+  "degree":"b.tech",
+  "institute":"pvpsit",
+  "data":["2016-2020","85%"]
+},
+{
+  "degree":"intermediate",
+  "institute":"narayana",
+  "data":["2014-2016","92%"]
+},
+{
+  "degree":"s.c.c",
+  "institute":"kendriya vidyalay no.1",
+  "data":["2004-2014","80%"]
+}
+]
+}
