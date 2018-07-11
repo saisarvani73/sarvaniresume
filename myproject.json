@@ -25,5 +25,67 @@
   "institute":"kendriya vidyalay no.1",
   "data":["2004-2014","80%"]
 }
+],
+"skills":[
+  {
+    "title":"Programming Languages: ",
+    "info":["c","c++","python","java","ruby","R"]
+  },
+  {
+    "title":"Databases: ",
+    "info":["oracle","sql","mysql"]
+  },
+
+  {
+    "title":"Operating System: ",
+    "info":["windows","MAC","unix","kaliLinux"]
+  },
+  {
+    "title":"Wed Technologies: ",
+    "info":["HTML","CSS","XML"]
+  }
+],
+"achivements":[
+  {
+    "name":"techincal quiz",
+    "venue":"pvpsit",
+    "year":"2016",
+    "place":"got 2nd place"
+  },
+  {
+    "name":"paper presnetation",
+    "venue":"pvpsit",
+    "year":"2016",
+    "place":"got 1st place"
+  },
+  {
+    "name":"Model Presentation",
+    "venue":"pvpsit",
+    "year":"2016",
+    "place":"participated"
+  },{
+    "name":"paper presnetation",
+    "venue":"pvpsit",
+    "year":"2017",
+    "place":"participated"
+  },
+  {
+    "name":"workshop",
+    "venue":"BSNL",
+    "year":"2017",
+    "place":"participated"
+  },
+  {
+    "name":"Internship",
+    "venue":"campus ambassdor",
+    "year":"2017",
+    "place":"participated"
+  },
+  {
+    "name":"workshop",
+    "venue":"PWA",
+    "year":"2017",
+    "place":"participated"
+  }
 ]
 }

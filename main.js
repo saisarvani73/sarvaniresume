@@ -33,6 +33,8 @@ newFile.then(data=>{
 console.log(data);
 career(data.career);
 education(data.education);
+skills(data.skills);
+achivements(data.achivements);
 })
 var childTwo=document.querySelector(".child2");
 function career(careerObj)
@@ -67,4 +69,36 @@ for (var i=0;i<edu.length;i++){
   eduUl.appendChild(eduLi1);
   childTwo.appendChild(eduUl);
 }
+}
+function skills(skillinfo){
+
+  var careerHeading1=document.createElement("h2");
+  careerHeading1.textContent="Technical Skills";
+  childTwo.appendChild(careerHeading1);
+  var hr1=document.createElement("hr");
+  careerHeading1.appendChild(hr1);
+  var skilltable=document.createElement("table");
+  skilltable.border="5";
+  childTwo.appendChild(skilltable);
+  var tableData="";
+  for(var i=0;i<skillinfo.length;i++){
+  tableData+="<tr><td>"+skillinfo[i].title+"</td><td>"+skillinfo[i].info+"</td></tr>";
+  }
+  skilltable.innerHTML=tableData;
+}
+function achivements(achive){
+  var careerHeading1=document.createElement("h2");
+  careerHeading1.textContent="Achivements";
+  childTwo.appendChild(careerHeading1);
+  var hr1=document.createElement("hr");
+  careerHeading1.appendChild(hr1);
+  var skilltable=document.createElement("table");
+  skilltable.border="5";
+  childTwo.appendChild(skilltable);
+  var tableData="";
+  for(var i=0;i<achive.length;i++){
+  tableData+="<tr><td>"+achive[i].name+"</td><td>"+achive[i].venue+"</td><td>"+achive[i].year+"</td><td>"+achive[i].place+"</td></tr>";
+  }
+  skilltable.innerHTML=tableData;
+
 }
